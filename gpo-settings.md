@@ -2,7 +2,7 @@
 
 This project implemented multiple layered security controls using Group Policy Objects (GPOs) to simulate enterprise endpoint hardening.
 
----
+
 
 # 1. Domain Password & Lockout Policy
 
