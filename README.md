@@ -41,3 +41,12 @@ The objective was to simulate a real-world corporate environment and enforce ide
 - ou-design.md → OU architecture explanation
 - gpo-settings.md → Security policy configurations
 - restricted-groups.md → Local admin control enforcement
+
+## Skills Demonstrated
+
+- Active Directory Administration
+- Role-Based Access Control (RBAC)
+- Group Policy Hardening
+- Privilege Escalation Prevention
+- Identity & Access Management
+- Security Validation Testing
