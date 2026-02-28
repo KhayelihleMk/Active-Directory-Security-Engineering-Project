@@ -7,7 +7,6 @@ This project demonstrates enterprise-level Active Directory (AD) security harden
 The objective was to simulate a real-world corporate environment and enforce identity security, least privilege access, and centralized endpoint control using Group Policy Objects (GPOs).
 
 
-
 ## Environment
 
 - Windows Server (Domain Controller: DC01)
