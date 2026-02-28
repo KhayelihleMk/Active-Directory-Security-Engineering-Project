@@ -1,78 +1,44 @@
 # Active Directory Security Engineering Project
 
-## Project Overview
+## Overview
 
-This project demonstrates comprehensive Active Directory (AD) security engineering, including OU design, Group Policy Objects (GPOs), password and lockout policies, delegation, and restricted groups. The goal was to simulate enterprise-level AD management and hardening practices in a lab environment while applying security best practices.
+This project demonstrates enterprise-level Active Directory (AD) security hardening and role-based access control (RBAC) implementation using Windows Server.
 
-The project highlights hands-on experience with AD administration, security enforcement, and SOC-relevant security controls.
-
-
-
-## Objectives
-
-- Design and implement Organizational Unit (OU) hierarchy for logical and secure management  
-- Configure Group Policy Objects (GPOs) to enforce password, lockout, and security settings  
-- Implement restricted groups to limit local administrator privileges  
-- Delegate administrative permissions securely  
-- Validate security policies and test enforcement across lab domain controllers and client machines  
+The objective was to simulate a real-world corporate environment and enforce identity security, least privilege access, and centralized endpoint control using Group Policy Objects (GPOs).
 
 
 
-## Lab Setup
+## Environment
 
-- Domain Controller (Windows Server VM)  
-- Client Workstation (Windows 11 VM)  
-- Active Directory Users and Computers configured with custom OUs  
-- GPOs linked to OUs for policy enforcement  
-- Restricted groups applied to critical computers  
-
-
-
-## Testing / Validation
-
-- OU structure verified via Active Directory Users and Computers  
-- GPOs tested by logging into client machines and confirming policy enforcement  
-- Restricted groups validated by attempting unauthorized privilege escalation  
-- All configurations documented and screenshots captured for portfolio demonstration  
+- Windows Server (Domain Controller: DC01)
+- Windows 11 Client (CLIENT-01)
+- Active Directory Domain Services (AD DS)
+- Group Policy Management
+- Organizational Units (OUs)
+- Security Groups
 
 
 
-## Technologies Used
+## Key Security Implementations
 
-- Windows Server (Domain Controller)  
-- Windows Clients  
-- Active Directory Users and Computers (ADUC)  
-- Group Policy Management Console (GPMC)  
-- Restricted Groups configuration  
-
-
-
-## Skills Demonstrated
-
-- Active Directory security engineering  
-- OU design and delegation strategy  
-- GPO creation and enforcement  
-- Restricted group management  
-- Policy testing and validation  
-- Hands-on SOC/security operations practices  
+- Structured OU design for policy segmentation
+- Password complexity & account lockout enforcement
+- Least privilege enforcement using Restricted Groups
+- Delegation of password reset permissions
+- Endpoint configuration hardening via GPO
 
 
 
-## Screenshots
+## Security Objectives
 
-### OU Structure
-![OU Structure](screenshots/ou-structure.png)
-
-### GPO Policy Settings
-![GPO Settings](screenshots/gpo-policy.png)
-
-### Restricted Groups Configuration
-![Restricted Groups](screenshots/restricted-group-settings.png)
+- Reduce privilege escalation risk
+- Enforce centralized identity control
+- Implement enterprise-style RBAC
+- Validate policy enforcement through testing
 
 
+## Project Structure
 
-## Notes
-
-- This project was completed in a lab environment for learning and portfolio purposes.  
-- Security policies and thresholds were applied according to best practice guidelines for AD security.  
-- All configurations can be adapted for production environments with proper change management.
+- ou-design.md → OU architecture explanation
+- gpo-settings.md → Security policy configurations
+- restricted-groups.md → Local admin control enforcement
