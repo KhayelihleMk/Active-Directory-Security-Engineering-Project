@@ -17,7 +17,7 @@ Implement Role-Based Access Control (RBAC) by delegating limited administrative 
 
 3. Right-clicked **Staff OU** → Selected **Delegate Control**  
 
-4. Added **IT-Security** group and selected permissions:  
+4. Added **IT** group and selected permissions:  
    - Reset user passwords and force password change at next logon  
 
 
@@ -27,7 +27,7 @@ Implement Role-Based Access Control (RBAC) by delegating limited administrative 
 Delegation was verified by:  
 
 - Reviewing **Staff OU → Properties → Security → Advanced**  
-- Confirming **IT-Security** group has:  
+- Confirming **IT** group has:  
   - Reset password  
   - Write `pwdLastSet` permissions  
 
