@@ -90,6 +90,8 @@ Configured via Delegation of Control Wizard on Staff OU.
 The following tests were performed:
 
 - Logged in as Staff user → Confirmed Control Panel blocked
+  ## Screenshot
+[![Control Panel – Staff OU](screenshots/06-control-panel-blocked.png)](screenshots/06-control-panel-blocked.png)
 - Attempted to open CMD → Access denied
 - Executed gpupdate /force → Policies applied successfully
 - Ran net localgroup administrators on CLIENT-01 → Verified restricted membership
